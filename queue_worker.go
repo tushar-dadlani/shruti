@@ -13,7 +13,7 @@ func RunResponseWorker() {
 			time.Sleep(10 * time.Second)
 			continue
 		}
-		ivonaResp := responseQueue.Dequeue().(TTSResponse)
+		ivonaResp := responseQueue.Dequeue().(*TTSResponse)
 		log.Println("playing:", ivonaResp.Text)
 		playAudioSlice(ivonaResp.Audio, ivonaResp.KeepFile)
 		time.Sleep(2 * time.Second)
