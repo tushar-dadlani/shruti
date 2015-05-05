@@ -3,13 +3,15 @@ package main
 import (
 	"log"
 	"os"
+
+	. "github.com/oleiade/lane"
 )
 
-var responseQueue *TTSResponseQueue
+var responseQueue *Queue
 
 func main() {
 
-	responseQueue = NewTTSResponseQueue()
+	responseQueue = NewQueue()
 
 	accessKey := os.Getenv("IVONA_ACCESS_KEY")
 	secretKey := os.Getenv("IVONA_SECRET_KEY")

@@ -34,6 +34,6 @@ func GetTTSFromIvona(provider, text, voice string, keepFile bool) {
 			Provider: provider,
 			KeepFile: keepFile,
 		}
-		responseQueue.Push(_resp)
+		responseQueue.Enqueue(_resp)
 	}()
 }
