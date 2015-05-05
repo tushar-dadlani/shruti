@@ -63,7 +63,7 @@ How to set up
 Goal
 -----
 - Build an open source SaaS that anyone can deploy for themselves, use it personally
-- Do not go after building J.A.R.V.I.S. There is already a project for that[jasper](http://jasperproject.github.io/)
+- Do not go after building J.A.R.V.I.S. There is already a project for that [jasper](http://jasperproject.github.io/)
 
 - TODO:
     - Convert this hack into a nice future proof API, make it configurable easily

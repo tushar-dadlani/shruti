@@ -11,8 +11,8 @@ func main() {
 
 	responseQueue = NewTTSResponseQueue()
 
-	accessKey := os.Getenv("SHRUTI_ACCESSKEY")
-	secretKey := os.Getenv("SHRUTI_SECRETKEY")
+	accessKey := os.Getenv("IVONA_ACCESS_KEY")
+	secretKey := os.Getenv("IVONA_SECRET_KEY")
 	if accessKey == "" || secretKey == "" {
 		log.Println("main: environment variables not set")
 		return

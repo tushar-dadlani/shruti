@@ -1,0 +1,27 @@
+{
+	"ImportPath": "github.com/Omie/shruti",
+	"GoVersion": "go1.4.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/bmizerany/aws4",
+			"Rev": "5fb2e72396263668edd9a2956052e402cf6c104a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "660d31f8602b95058fed6833debf113e85350868"
+		},
+		{
+			"ImportPath": "github.com/jpadilla/ivona-go",
+			"Comment": "v0.1-1-ge158675",
+			"Rev": "e158675d1ce03a1a145262bce26377459a89c446"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Rev": "7c7f2020c4c9491594b85767967f4619c2fa75f9"
+		}
+	]
+}
