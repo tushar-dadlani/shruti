@@ -17,7 +17,7 @@ def doWork():
                 _data = { "text" : _resp['title'],
                           "voice": "Salli",
                           "provider": "hackernews"}
-                r = requests.post("http://127.0.0.1:9574/push/", data=_data)
+                r = requests.post("http://shruti.cfapps.io/push/", data=_data)
             visitedStories[storyid] = True
         time.sleep(15 * 60) # ~15minutes
         print "time to check updates again"
