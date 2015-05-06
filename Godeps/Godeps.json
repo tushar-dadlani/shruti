@@ -20,6 +20,11 @@
 			"Rev": "e158675d1ce03a1a145262bce26377459a89c446"
 		},
 		{
+			"ImportPath": "github.com/oleiade/lane",
+			"Comment": "0.1.0-21-ge2df44d",
+			"Rev": "e2df44de3dbdd0074d315d1fa74f15a090802b45"
+		},
+		{
 			"ImportPath": "github.com/satori/go.uuid",
 			"Rev": "7c7f2020c4c9491594b85767967f4619c2fa75f9"
 		}
