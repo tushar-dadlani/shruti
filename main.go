@@ -24,7 +24,7 @@ func main() {
 
 	go RunResponseWorker()
 
-	if err := StartHTTPServer("127.0.0.1", "9574"); err != nil {
+	if err := StartHTTPServer(os.Getenv("VCAP_APP_HOST"), os.Getenv("VCAP_APP_PORT")); err != nil {
 		log.Println("Error starting server", err)
 	}
 
