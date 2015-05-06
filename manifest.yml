@@ -1,0 +1,9 @@
+---
+applications:
+- name: shruti
+  memory: 512M
+  host: shruti
+  buildpack: go_buildpack
+  env:
+    IVONA_ACCESS_KEY: GDNAJHEGIA3CLXGH5BLQ
+    IVONA_SECRET_KEY: m/xDRL0iVIJCP/CA5BwAGMb81NU7EV49+l1uujjr
